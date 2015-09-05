@@ -1,0 +1,143 @@
+body
+{
+	margin: 0px;
+	-webkit-box-shadow: -5px 9px 29px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 9px 29px -1px rgba(0,0,0,0.75);
+    box-shadow: -5px 9px 29px -1px rgba(0,0,0,0.75);
+}
+header
+{
+	position: fixed;
+	background-color: rgba(0,0,0,0.67);
+	width: 100%;
+	padding: 12px;
+}
+header h1, header nav
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+header h1
+{
+	margin: 0px;
+	margin-left: 5%;
+	width: 100px;
+	height: 63px;
+}
+header h1 img
+{
+	width: 100px;
+}
+
+header nav
+{
+	width: 950px;
+	margin-left: 10%;
+}
+header nav ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+header nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+}
+header nav ul li:last-child
+{
+	margin-right: 0px;
+}
+header nav ul li:last-child a
+{
+	border: 2px solid rgb(97, 146, 229);
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+header nav ul li:last-child a:hover
+{
+	background-color: transparent;
+	transform: scale(0.9);
+    border: 2px solid rgb(0,32,96);
+}
+header nav ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 11pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 12px 15px;
+	border-radius: 4px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-mz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+header nav ul li a:hover
+{
+	background-color: rgb(0, 32, 96);
+}
+
+section h3
+{
+    margin-top: 0px;
+	padding-top: 300px;
+}
+/*<form_login>
+#form_login
+{
+	position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
+    right: 4.5%;
+    top: 68px;
+    border: 2px solid rgb(97, 146, 229);
+}
+#form_login ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+#form_login ul li
+{
+	list-style-type: none;
+	display: block;
+	margin-bottom: 20px;
+}
+#form_login ul li:last-child
+{
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+#form_login ul li input:not([type="submit"])
+{
+	padding: 5px 8px;
+	width: 180px;
+	font-size: 13pt;
+}
+#form_login ul li:last-child
+{
+	text-align: center;
+}
+#form_login ul li input[type="submit"]
+{
+	background-color: rgb(18, 104, 159);
+	color: #fff;
+	font-family: sans-serif;
+	padding: 10px 15px;
+	border: none;
+	font-size: 13pt;
+}
+#form_login ul li h3
+{
+    font-size: 23pt;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+/*</form_login>*/
