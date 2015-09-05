@@ -1,0 +1,54 @@
+section nav
+{
+	position: absolute;
+	width: 1000px;
+    height: 100px;
+    top: 170px;
+    left: 200px;
+    z-index: 2;
+    vertical-align: middle;
+}
+
+section nav h2
+{
+	margin-top: 0px;
+	margin-bottom: 19px;
+}
+section nav form ul
+{
+	padding-top: 5px;
+
+}
+section nav form ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	list-style-type: none;
+}
+section nav form ul li select, input:not([type="submit"])
+{
+	vertical-align: middle;
+	padding: 5px 10px;
+    width: 169px;
+    border-radius: 5px;
+}
+section nav form
+{
+
+  background-color: rgba(0,0,0,0.69);
+  border-radius: 5px;
+  height: 45px;
+
+
+}
+section nav form ul li input[type="submit"]
+{
+    vertical-align: middle;
+	background-color: #FFC100;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	border: none;
+
+}

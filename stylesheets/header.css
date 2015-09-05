@@ -11,11 +11,14 @@ header
 	background-color: rgba(0,0,0,0.67);
 	width: 100%;
 	padding: 12px;
+    z-index: 9;
+
 }
+
 header h1, header nav
 {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: middle;*
 }
 header h1
 {
@@ -39,6 +42,7 @@ header nav ul
 	margin: 0px;
 	padding: 0px;
 }
+
 header nav ul li
 {
 	display: inline-block;
@@ -82,11 +86,6 @@ header nav ul li a:hover
 	background-color: rgb(0, 32, 96);
 }
 
-section h3
-{
-    margin-top: 0px;
-	padding-top: 300px;
-}
 /*<form_login>
 #form_login
 {
